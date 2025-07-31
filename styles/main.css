@@ -44,7 +44,7 @@ body::selection{
 .card{
     display: flex;
     flex-direction: column;
-    max-width: 23rem;
+    max-width: 24rem;
     background-color: var(--white);
     padding: 1.5rem;
     border-radius: var(--card-radius);
@@ -126,4 +126,12 @@ body::selection{
 
 .footer-links{
     text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+    .card{
+        margin-inline-start: 1rem;
+        margin-inline-end: 1rem;
+    }
+    
 }
