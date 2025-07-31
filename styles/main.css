@@ -49,8 +49,8 @@ body::selection{
     padding: 1.5rem;
     border-radius: var(--card-radius);
     gap: 0.75rem;
-    border: 1px solid;
-    box-shadow: 8px 8px 0 black;
+    border: 0.0625rem solid;
+    box-shadow: 0.5rem 0.5rem 0 black;
 }
 
 .illustration{
@@ -69,8 +69,13 @@ body::selection{
     border-radius: 0.25rem;
     border: none;
     color: var(--primary-color);
+    transition: transform 0.05s ease-in-out, color 0.05s ease-in;
 }
 
+.card-btn:active{
+    color: var(--white);
+    transform: scale(1.2);
+}
 .date{
     font-weight: var(--medium);
     font-size: var(--small-size);
