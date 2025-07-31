@@ -22,7 +22,7 @@ Users should be able to:
 
 ## Screenshot
 
-![Blog Preview Card Screenshot](./screenshot.jpg)
+![Blog Preview Card Screenshot](screenshot.png)
 
 ## Links
 
@@ -34,6 +34,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- CSS Grid
 - Mobile-first workflow
 - Google Fonts (Figtree)
 
